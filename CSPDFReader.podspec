@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CSPDFReader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CSPDFReader.'
+  s.summary          = '读取PDF的每一页图片'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
