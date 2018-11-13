@@ -10,5 +10,5 @@ language: Swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- xcodebuild -scheme CSTestKit-Example -workspace Example/CSTestKit.xcworkspace -sdk iphonesimulator12.0 build test
+- xcodebuild -scheme CSPDFReader-Example -workspace Example/CSPDFReader.xcworkspace -sdk iphonesimulator12.0 build test
 - pod lib lint
