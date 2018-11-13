@@ -22,7 +22,7 @@ pod 'CSPDFReader'
 
 ## Author
 
-WeiRuJian, 824041965@qq.com
+Choshim丶Wy, 824041965@qq.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module CSPDFReader {
+  umbrella header "CSPDFReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

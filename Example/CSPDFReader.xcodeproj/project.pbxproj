@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		932018F5D364149FE9CA4C4A /* Pods_CSPDFReader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FADCA7F2C37C13DDDAA2C2 /* Pods_CSPDFReader_Example.framework */; };
+		AA046706219AA2F50029F415 /* 图解HTTP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA046705219AA2F50029F415 /* 图解HTTP.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		650DE233A65CA66177B5DC93 /* Pods-CSPDFReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSPDFReader_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSPDFReader_Example/Pods-CSPDFReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E4948CABE44F4393F94EC9D /* Pods-CSPDFReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSPDFReader_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSPDFReader_Tests/Pods-CSPDFReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A14B2C3A5EBEA0E1C4E44EA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A14B2C3A5EBEA0E1C4E44EA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AA046705219AA2F50029F415 /* 图解HTTP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "图解HTTP.pdf"; sourceTree = "<group>"; };
 		AAF5E5D7E7504405FB586736 /* Pods-CSPDFReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSPDFReader_Example.release.xcconfig"; path = "Target Support Files/Pods-CSPDFReader_Example/Pods-CSPDFReader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B017335E89B2B966A16CB0E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B3F6617D3216D5D6A4DBF640 /* CSPDFReader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSPDFReader.podspec; path = ../CSPDFReader.podspec; sourceTree = "<group>"; };
+		B017335E89B2B966A16CB0E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3F6617D3216D5D6A4DBF640 /* CSPDFReader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSPDFReader.podspec; path = ../CSPDFReader.podspec; sourceTree = "<group>"; };
 		B6CCB4273C03EE4483EC5F39 /* Pods_CSPDFReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSPDFReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FADCA7F2C37C13DDDAA2C2 /* Pods_CSPDFReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSPDFReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for CSPDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				AA046705219AA2F50029F415 /* 图解HTTP.pdf */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,7 +159,6 @@
 				7E4948CABE44F4393F94EC9D /* Pods-CSPDFReader_Tests.debug.xcconfig */,
 				104CE786A16EA70FE4910B7E /* Pods-CSPDFReader_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +211,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -250,6 +252,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				AA046706219AA2F50029F415 /* 图解HTTP.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +422,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -472,12 +477,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
