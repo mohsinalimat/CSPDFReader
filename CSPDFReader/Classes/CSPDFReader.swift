@@ -156,9 +156,7 @@ public struct CSPDFReader {
             return image
         }
     }
-}
-
-extension CSPDFReader {
+    
     
     /// 所有页面的图片
     public func allPageImages() -> [UIImage]? {
@@ -171,4 +169,6 @@ extension CSPDFReader {
         return imgs
     }
 }
+
+
 
