@@ -24,8 +24,8 @@ pod 'CSPDFReader'
 ```Swift
 let url = URL(fileURLWithPath: Bundle.main.path(forResource: "图解HTTP", ofType: "pdf")!)
 guard let reader = CSPDFReader(url: url, constant: 300) else { return }
-print("总页数: \(reader.pageCount)")
-print("文件名称: \(reader.fileName)")
+print("totalPage: \(reader.pageCount)")
+print("fileName: \(reader.fileName)")
 guard let images = reader.allPageImages() else { print("没有图片"); return }
 ```
 
