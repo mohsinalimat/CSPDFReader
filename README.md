@@ -26,7 +26,7 @@ let url = URL(fileURLWithPath: Bundle.main.path(forResource: "图解HTTP", ofTyp
 guard let reader = CSPDFReader(url: url, constant: 300) else { return }
 print("totalPage: \(reader.pageCount)")
 print("fileName: \(reader.fileName)")
-guard let images = reader.allPageImages() else { print("没有图片"); return }
+guard let images = reader.allPageImages() else { print("No find image"); return }
 ```
 
 ## Author
