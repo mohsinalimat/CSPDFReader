@@ -11,5 +11,5 @@ before_install:
 - gem install cocoapods --pre # Since Travis is not always on latest version
 - pod install --project-directory=Example
 script:
-- xcodebuild -scheme CSPDFReader-Example -workspace Example/CSPDFReader.xcworkspace -sdk iphonesimulator12.2 build test
+# - xcodebuild -scheme CSPDFReader-Example -workspace Example/CSPDFReader.xcworkspace -sdk iphonesimulator12.2 build test
 - pod lib lint --no-clean
