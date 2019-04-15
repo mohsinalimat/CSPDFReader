@@ -26,13 +26,10 @@ class ViewController: UIViewController {
 
 //        let url = URL(string: "http://into.wainwar.com/upload/UserPaper/13977823556/pdf/201811/12/201811121156569793/201811121156569793.pdf")!
         let url = URL(fileURLWithPath: Bundle.main.path(forResource: "图解HTTP", ofType: "pdf")!)
-        guard let reader = CSPDFReader(url: url,
-                                       constant: 300) else { print("初始化PDFReader失败"); return }
+        guard let reader = CSPDFReader(url: url, constant: 300) else { return }
         print("总页数: \(reader.pageCount)")
         print("文件名称: \(reader.fileName)")
         guard let images = reader.allPageImages() else { print("没有图片"); return }
-
-        dump(images)
 
         self.images = images
         collectionView.delegate = self
