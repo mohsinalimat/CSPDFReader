@@ -1,7 +1,7 @@
 {
   "name": "CSPDFReader",
-  "version": "0.1.0",
-  "summary": "A short description of CSPDFReader.",
+  "version": "0.1.1",
+  "summary": "读取PDF的每一页图片",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WeiRuJian/CSPDFReader",
   "license": {
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/WeiRuJian/CSPDFReader.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
+  "swift_version": "5.0",
   "source_files": "CSPDFReader/Classes/**/*"
 }

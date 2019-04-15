@@ -6,9 +6,9 @@
 //
 
 import Foundation
+import CoreGraphics
 
 public extension CGPDFPage {
-    
     var originalPageRect: CGRect {
         switch rotationAngle {
         case 90, 270:
@@ -19,9 +19,7 @@ public extension CGPDFPage {
             return getBoxRect(.mediaBox)
         }
     }
-    
 }
-
 
 public extension Int {
     var degreesToRadians: Double { return Double(self) * .pi / 180 }

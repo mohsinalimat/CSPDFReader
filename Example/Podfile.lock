@@ -1,28 +1,34 @@
 PODS:
-  - CSPDFReader (0.1.0)
+  - CSPDFReader (0.1.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Nimble (7.3.1)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
-  - Quick (1.2.0)
+  - iOSSnapshotTestCase (6.0.3):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.0.3)
+  - iOSSnapshotTestCase/Core (6.0.3)
+  - iOSSnapshotTestCase/SwiftSupport (6.0.3):
+    - iOSSnapshotTestCase/Core
+  - Nimble (8.0.1)
+  - Nimble-Snapshots (7.0.0):
+    - Nimble-Snapshots/Core (= 7.0.0)
+  - Nimble-Snapshots/Core (7.0.0):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble (~> 8.0)
+  - Quick (2.0.0)
 
 DEPENDENCIES:
   - CSPDFReader (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 7.3.0)
-  - Nimble-Snapshots (~> 6.3.0)
-  - Quick (~> 1.2.0)
+  - Nimble (~> 8.0.1)
+  - Nimble-Snapshots (~> 7.0.0)
+  - Quick (~> 2.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - iOSSnapshotTestCase
     - Nimble
     - Nimble-Snapshots
     - Quick
@@ -32,12 +38,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSPDFReader: a906537736470a9938ea877384204dbdce73068b
+  CSPDFReader: c89d0a5f3adba65936b3933a0b2ade53e64ac962
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  iOSSnapshotTestCase: 944a73f6d9676302811a86c0cf35f0e6ef5ab2a0
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Nimble-Snapshots: 2d6d712ceb2d1850d88f850fbd7c732618106022
+  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
 
-PODFILE CHECKSUM: 423a076dc7897bd069cca6e2ccf09523ba123f62
+PODFILE CHECKSUM: 3eed2d020c78c42f2181aa6acf1cec641ca1fdf8
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
