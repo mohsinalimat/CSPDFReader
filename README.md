@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'CSPDFReader'
 ```
 
-##使用方法
+## Using
 ```Swift
 let url = URL(fileURLWithPath: Bundle.main.path(forResource: "图解HTTP", ofType: "pdf")!)
 guard let reader = CSPDFReader(url: url, constant: 300) else { return }
