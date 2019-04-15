@@ -20,13 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'CSPDFReader'
 ```
 
-##使用方法
+## Using
 ```Swift
 let url = URL(fileURLWithPath: Bundle.main.path(forResource: "图解HTTP", ofType: "pdf")!)
 guard let reader = CSPDFReader(url: url, constant: 300) else { return }
-print("总页数: \(reader.pageCount)")
-print("文件名称: \(reader.fileName)")
-guard let images = reader.allPageImages() else { print("没有图片"); return }
+print("totalPage: \(reader.pageCount)")
+print("fileName: \(reader.fileName)")
+guard let images = reader.allPageImages() else { print("No find image"); return }
 ```
 
 ## Author
